@@ -7,24 +7,29 @@
 **How do you ensure the security of a SQL database?**
   Security can be ensured by implementing proper access controls, using SSL connections, regular patching of the database software, encrypting sensitive data, and monitoring for unusual access patterns.
 
-**Basic SQL **
-Basic SELECT Queries:
-<sub>
+**Basic SQL**
+
+**Basic SELECT Queries:**
+```
 SELECT * FROM employees;
 SELECT first_name, last_name FROM employees;
+```
 
 FIltering Data 
+```
 SELECT * FROM employees WHERE salary > 50000;
 SELECT * FROM employees WHERE hire_date > '2020-01-01';
-
-Sorting Data:
+```
+**Sorting Data:**
+```
 SELECT * FROM employees ORDER BY last_name ASC;
 SELECT * FROM employees ORDER BY salary DESC;
-
-Aggregate Functions:
+```
+**Aggregate Functions:**
+```
 SELECT COUNT(*) FROM employees;
 SELECT AVG(salary) FROM employees;
-</sub>
+```
 Intermediate SQL 
 Joins:
 SELECT e.first_name, e.last_name, d.department_name

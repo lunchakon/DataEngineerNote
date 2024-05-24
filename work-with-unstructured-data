@@ -1,0 +1,5 @@
+Replace row data from all .tcx files
+'''
+sed -i 's/REACTOR/PAGE/g' *.tcx
+'''
+sed : stream editor for filtering and transforming text

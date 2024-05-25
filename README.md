@@ -1,5 +1,6 @@
 # DataEngineerNote
 Engineers analytics notebook : lunchakon wongprasert
+Here is my personal Engineers Analytics Notebook(point note) acroos many topices for Data Engineers, hopefully thiis can be comprehensive and valuable resource for data engineers, here's also a list of topics to include, covering fundaemtal concepts, tools, techniques and advanced methodologies to implement with data, I will try to put more link details as much as possible by each sections.
 
 Quick introduction to Data Engineering
 What is Data Engineering

@@ -15,7 +15,7 @@ Optimized for fast data insertion, update, and retrieval operations to support r
 Order processing systems, inventory management systems, and customer relationship management (CRM) systems
 
 
-## TAnalytical Data Modeling
+## Analytical Data Modeling
 
 ### Purpose: 
 Designed for analysis and decision-making, often used in data warehousing and business intelligence applications

@@ -379,6 +379,7 @@ The CTE UserOrderCount calculates the number of orders placed by each user. The 
 
 ------
 ###Visualing a SQL query 
+https://www.youtube.com/watch?v=BHwzDmr6d7s
 Bad : SELECT .. WHERE Year(myDate) = 2008
 Fixed : SELECT .. WHERE myDate >= '01-02-2003' AND myDate < '01-01-2004'
 

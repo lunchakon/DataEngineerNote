@@ -100,12 +100,84 @@ WITH RECURSIVE EmployeeHierarchy AS (
 )
 SELECT * FROM EmployeeHierarchy;
 ```
+### Example from the basic SQL above
+Create Sample Tables
+![image](https://github.com/lunchakon/DataEngineerNote/assets/33216011/bd8ca91e-7fe5-43d2-9447-a88cef52afd0)
+
+```
+-- Create Employees table
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    DepartmentID INT,
+    Salary DECIMAL(10, 2),
+    HireDate DATE
+);
+
+-- Insert sample data into Employees table
+INSERT INTO Employees (EmployeeID, FirstName, LastName, DepartmentID, Salary, HireDate) VALUES
+(1, 'John', 'Doe', 1, 60000.00, '2015-03-01'),
+(2, 'Jane', 'Smith', 2, 80000.00, '2017-06-15'),
+(3, 'Michael', 'Brown', 1, 75000.00, '2018-09-23'),
+(4, 'Emily', 'Davis', 3, 50000.00, '2020-01-10');
+
+-- Create Departments table
+CREATE TABLE Departments (
+    DepartmentID INT PRIMARY KEY,
+    DepartmentName VARCHAR(50)
+);
+
+-- Insert sample data into Departments table
+INSERT INTO Departments (DepartmentID, DepartmentName) VALUES
+(1, 'HR'),
+(2, 'Engineering'),
+(3, 'Marketing');
+
+-- Create Projects table
+CREATE TABLE Projects (
+    ProjectID INT PRIMARY KEY,
+    ProjectName VARCHAR(100),
+    StartDate DATE,
+    EndDate DATE
+);
+
+-- Insert sample data into Projects table
+INSERT INTO Projects (ProjectID, ProjectName, StartDate, EndDate) VALUES
+(1, 'Project Alpha', '2021-01-01', '2021-06-30'),
+(2, 'Project Beta', '2021-07-01', '2021-12-31');
+
+-- Create EmployeeProjects table
+CREATE TABLE EmployeeProjects (
+    EmployeeID INT,
+    ProjectID INT,
+    HoursWorked DECIMAL(5, 2),
+    PRIMARY KEY (EmployeeID, ProjectID),
+    FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID),
+    FOREIGN KEY (ProjectID) REFERENCES Projects(ProjectID)
+);
+
+-- Insert sample data into EmployeeProjects table
+INSERT INTO EmployeeProjects (EmployeeID, ProjectID, HoursWorked) VALUES
+(1, 1, 100.00),
+(2, 1, 150.00),
+(1, 2, 120.00),
+(3, 2, 130.00),
+(4, 2, 90.00);
+```
+
+
+
 
 **Practice Projects**
 
 Database Design:
 Design a database schema for a simple e-commerce platform including tables for users, products, orders, and order_items.
+
+![image](https://github.com/lunchakon/DataEngineerNote/assets/33216011/58f4cfc6-ef37-4411-8d51-1eec773ef6e8)
+
 Data Analysis:
+
 _Create a set of SQL queries to analyze sales data from an e-commerce database, such as total sales per month, best-selling products, and customer purchase history._
 
 1. Users Table

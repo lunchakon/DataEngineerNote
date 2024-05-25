@@ -102,6 +102,7 @@ SELECT * FROM EmployeeHierarchy;
 ```
 ### Example from the basic SQL above
 Create Sample Tables
+
 ![image](https://github.com/lunchakon/DataEngineerNote/assets/33216011/bd8ca91e-7fe5-43d2-9447-a88cef52afd0)
 
 ```

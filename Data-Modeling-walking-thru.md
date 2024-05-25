@@ -1,3 +1,5 @@
+# Data Modeling
+
 ## Transactional Data Modeling
 
 ### Purpose: 
@@ -11,7 +13,9 @@ Optimized for fast data insertion, update, and retrieval operations to support r
 
 ### Examples:
 Order processing systems, inventory management systems, and customer relationship management (CRM) systems
-Analytical Data Modeling
+
+
+## TAnalytical Data Modeling
 
 ### Purpose: 
 Designed for analysis and decision-making, often used in data warehousing and business intelligence applications

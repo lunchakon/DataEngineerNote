@@ -375,3 +375,17 @@ ORDER BY order_count DESC;
 ```
 The CTE UserOrderCount calculates the number of orders placed by each user. The main query selects users who have placed more than one order and orders the results by the number of orders in descending order.
 
+
+
+------
+###Visualing a SQL query 
+Bad : SELECT .. WHERE Year(myDate) = 2008
+Fixed : SELECT .. WHERE myDate >= '01-02-2003' AND myDate < '01-01-2004'
+
+Bad : SELECT .. WHERE SUBSTRING(dealerName,5) = 'Ford'
+Fixed : SELECT .. WHERE dealerName LIKE 'FOr%'
+
+Bad : SELECT .. WHERE DateDiff(mm,orderDate,GatDate()) >= 30
+Fixed : SELECT .. WHERE dealerName orderDate <DateAdd(mm,-30,GetDate())
+
+

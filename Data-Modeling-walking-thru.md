@@ -1,4 +1,4 @@
-![image](https://github.com/lunchakon/DataEngineerNote/assets/33216011/7c207421-6504-44ae-9f36-5e8f04ea263c)# Data Modeling
+
 
 ## Transactional Data Modeling
 

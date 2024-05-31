@@ -1,10 +1,12 @@
+
+![Uploading 423674986_790833799739102_1149411994100569741_n.jpg…]()
+
 ## Querying JSON Data in PostgreSQL
 
 ### Example Json Data structure
     [{"dataset": "JP_INTERNAL", "records": ["JP_CONTRIB/DEPO/?*", "JP_CONTRIB/FX/?*"]}, {"dataset": "HK_INTERNAL", "records": ["AU_CONTRIB/FX/?*", "CN_CONTRIB/FX/?*", "HK_CONTRIB/DEPO/?*", "HK_CONTRIB/FX/?*", "HK_CONTRIB/IRS/?*", "KR_CONTRIB/NDF/?*", "REF/FX/?*", "SG_CONTRIB/BILL/?*", "SG_CONTRIB/BOND/?*", "SG_CONTRIB/FRN/?*", "SG_CONTRIB/FX/?*", "SG_CONTRIB/NDF/?*", "SG_INTERNAL/NDF/?*"]}]
 
 To find rows where any part of the JSON data contains "SG_INTERNAL", you can use the jsonb type and the @> operator or the jsonb_array_elements function to extract and search through the JSON array elements.
-
 
 1.) Use the @> Operator: This operator checks if the JSONB data on the left contains the JSONB data on the right. This method checks for the presence of "SG_INTERNAL" in any dataset.
 

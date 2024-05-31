@@ -1,5 +1,6 @@
 
-![Uploading 423674986_790833799739102_1149411994100569741_n.jpg…]()
+
+![meme](https://github.com/lunchakon/DataEngineerNote/assets/33216011/53893c34-c90f-45aa-89ad-c32ae7174065)
 
 ## Querying JSON Data in PostgreSQL
 

@@ -34,3 +34,22 @@ Explore platforms like Coursera, Udacity, or Kaggle Learn.
 Stay Updated:
 The field of Generative AI is rapidly evolving.
 Follow blogs and research papers to stay updated on the latest advancements.
+
+
+Blogs:
+
+Machine Learning Mastery: https://machinelearningmastery.com/ - This blog by Jason Brownlee covers a wide range of machine learning topics, including Generative AI. He provides clear explanations and code examples.
+The Gradient by Google AI: http://research.google/blog/ - This blog by Google AI researchers features articles on cutting-edge advancements in Generative AI and other AI fields.
+OpenAI Blog: https://openai.com/news/ - OpenAI is a non-profit research company focused on friendly artificial intelligence. Their blog discusses research on various aspects of AI, including Generative AI.
+Research Papers:
+
+Generative Adversarial Networks by Ian Goodfellow et al.: https://arxiv.org/abs/1406.2661 - This seminal paper introduced Generative Adversarial Networks (GANs), one of the foundational models in Generative AI.
+Attention Is All You Need by Ashish Vaswani et al.: https://arxiv.org/pdf/1706.03762 - This paper introduced the Transformer architecture, which has become a powerful tool for various NLP tasks, including generative text models.
+Diffusion Models: A Short Introduction by Jascha Sohl-Dickstein et al.: https://arxiv.org/abs/2404.07771 - This paper provides a good introduction to Diffusion Models, another class of generative models gaining popularity.
+Additional Resources:
+
+JSTOR: https://www.jstor.org/ - JSTOR is a digital library with a vast collection of academic journals and conference proceedings, including many related to AI. (May require a subscription or institutional access)
+arXiv: https://arxiv.org/ - arXiv is an open-access repository for pre-prints (research papers not yet published in journals). It's a great resource to stay updated on the latest research in Generative AI.
+
+
+

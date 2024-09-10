@@ -59,4 +59,23 @@ display current time :
 cur_time = time.localtime()
 print("current :",cur_time)
 
+the schedule Library:
+This is a popular Python library that provides a simple interface for scheduling jobs.
+
+===
+import schedule
+import time
+
+def my_function():
+    # Your script's code here
+
+schedule.every(10).minutes.do(my_function)  # Run every 10 minutes
+schedule.every().hour.do(my_function)  # Run every hour
+schedule.every().day.at("10:30").do(my_function)  # Run at 10:30 AM every day
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
+===
+
 
